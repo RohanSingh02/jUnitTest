@@ -2,17 +2,14 @@ package jUnitTestPackage;
 import java.util.*;
 
 public class jUnitFunctions {
-	public static void main(String[] args) {
-	    int x, y, sum;
-	    Scanner myObj = new Scanner(System.in); // Create a Scanner object
-	    System.out.println("Type a number:");
-	    x = myObj.nextInt(); // Read user input
-
-	    System.out.println("Type another number:");
-	    y = myObj.nextInt(); // Read user input
-
-	    sum = x + y;  // Calculate the sum of x + y
-	    System.out.println("Sum is: " + sum); // Print the sum
-	  }
+	
+		public int addNumbers(int num1, int num2) {
+			return num1+num2;
+		}
+		
+		public String addStrings(String s1, String s2) {
+			return s1+s2;
+		}
+		
 
 }
